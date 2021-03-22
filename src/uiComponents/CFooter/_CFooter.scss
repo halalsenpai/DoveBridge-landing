@@ -1,0 +1,33 @@
+.c-footer {
+  position: relative;
+  .shadow-box {
+    background: transparent radial-gradient(closest-side at 50% 85%, #9b9b8f -40%, #ffffff00 100%) 0% 0% no-repeat
+      padding-box;
+    height: 280px;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    transform: rotate(180deg);
+  }
+  .footer {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    background-color: $white;
+
+    .footer-wrap {
+      width: 340px;
+
+      img {
+        width: 170px;
+        margin: 0 0 1em 0;
+      }
+
+      .footer-text {
+        font-family: $font-light;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+// .c-layout {
+//   display: flex;
+//   flex-direction: column;
+//   width: 100%;
+//   height: 100vh;
+
+//   .content {
+//     margin: 4px 0px 0px 0px;
+//     padding: 0px;
+//     display: flex;
+//     flex-direction: column;
+//     flex: 1;
+//     min-height: calc(100vh - 109px);
+//   }
+// }
+
+.c-layout {
+  .content {
+    padding-top: 6em;
+    min-height: 90vh;
+  }
+}

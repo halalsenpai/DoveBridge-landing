@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .form-title {
+    font-size: $font-size-x-lg;
+    color: $primary;
+    font-family: $font-light;
+    margin: 0 0 1em 0;
+  }
+  .terms {
+    font-size: $font-size-x-sm;
+  }
+}

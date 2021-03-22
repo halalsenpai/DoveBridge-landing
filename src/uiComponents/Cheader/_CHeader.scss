@@ -1,0 +1,35 @@
+.c-header {
+  z-index: 436436;
+  .navbar {
+    background-color: $white;
+
+    .container {
+      .navbar-brand {
+        display: flex;
+        align-items: center;
+        &.title {
+          font-size: $font-size-lg;
+          font-family: $font-medium;
+          color: $text-color;
+        }
+      }
+    }
+    .signup-btn {
+      display: flex;
+
+      .nav-link {
+        text-decoration: none;
+        color: unset;
+      }
+    }
+  }
+  .shadow-box {
+    background: transparent radial-gradient(closest-side at 50% 95%, #9b9b8f -60%, #ffffff00 100%) 0% 0% no-repeat
+      padding-box;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+  }
+}

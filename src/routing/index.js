@@ -1,21 +1,8 @@
-import React, {Fragment} from 'react'
-import {Route, Switch} from 'react-router-dom';
-import {Home, About} from '../pages';
+import React from "react";
 
-function Routing() {
-    return (
-        <Fragment>
-            <Switch>
-                <Route exact path="/" component={Home}/>
-                <Route path="/about" component={About}/>
-                <Route path="*" render={() => (
-                    <div>
-                        <h1>Not Found</h1>
-                    </div>
-                )}/>
-            </Switch>
-        </Fragment>
-    )
-}
+import { Home, Login } from "../pages/index";
 
-export default Routing;
+export const Routes = [
+  { path: "/", component: Home, title: "Home", exact: true },
+  { path: "/login", component: Login, title: "Login", exact: true },
+];
