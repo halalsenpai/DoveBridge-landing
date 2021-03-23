@@ -1,5 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import CSlider from "../../uiComponents/CSlider/CSlider";
 
 import SignUpForm from "../../uiComponents/SignUpForm/SignUpForm";
 
@@ -11,12 +12,21 @@ function Home() {
           <div className="text">
             <Fade bottom>
               <div className="text-wrap">
-                <div className="title">
-                  Everlasting <br /> Love.
-                </div>
+                <div className="title">Everlasting Love.</div>
+                <br />
                 <div className="subtitle">
                   DoveBridge is a posthumous message delivery platform that lets you connect with your loved ones long
                   after you have passed away.
+                </div>
+                <br />
+                <div className="subtitle">
+                  Through a combination of images, videos, text and more, you can leave behind a rich digital legacy to
+                  comfort those closest to you in the weeks, months and years after death
+                </div>
+                <br />
+                <div className="subtitle">
+                  With an emphasis on quality, security and sensitivity, DoveBridgetakes your love and makes
+                  iteverlasting.
                 </div>
               </div>
             </Fade>
@@ -32,6 +42,11 @@ function Home() {
         </div>
       </section>
 
+      <section className="slidersection">
+        <div className="heading">How DoveBridge keeps your data secure</div>
+        <CSlider />
+      </section>
+
       <section id="sec-2">
         <div className="container">
           <div className="signup-form">
@@ -41,10 +56,23 @@ function Home() {
             <div className="text">
               <div className="text-wrap">
                 <div className="title">The Secure Way to Leave A Digital Legacy</div>
+                <br />
                 <div className="subtitle">
-                  Unlike other apps, DoveBridge does not hold on to your data. Our cutting-edge security system uses
-                  cloud encryption to eliminate any risk to your personal information.
+                  As data becomes an increasingly high-value commodity in the digital age,your information is at a
+                  higher risk of exposure than ever before.
                 </div>
+                <br />
+                <div className="subtitle">
+                  Unlike other apps, DoveBridgedoes not hold on to your data. Our cutting-edge security system uses
+                  cloud encryption to eliminateany risk to your personal information. In fact, even we won't be able to
+                  accessa single thing you upload!
+                </div>
+                <br />
+                <div className="subtitle">
+                  At DoveBridge,we respect and promote our users’ right to privacy by making data security a top
+                  priority.
+                </div>
+                <br />
               </div>
             </div>
           </Fade>

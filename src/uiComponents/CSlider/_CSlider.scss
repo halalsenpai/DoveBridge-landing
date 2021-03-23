@@ -1,0 +1,42 @@
+.slider {
+  position: relative;
+  div {
+    height: fit-content;
+    border-radius: 43px;
+
+    div {
+      display: flex !important;
+
+      align-items: center;
+
+      padding: 2em;
+    }
+  }
+  .slick-prev:before {
+    color: $black;
+    height: auto;
+    font-size: 25px;
+  }
+  .slick-next:before {
+    color: $black;
+    height: auto;
+    font-size: 25px;
+  }
+  .slick-dots li button::before {
+    margin: 0 !important;
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .slider {
+    div {
+      div {
+        padding: 1em;
+      }
+    }
+    h3 {
+      font-size: $font-size-md;
+      align-self: centery;
+    }
+  }
+}

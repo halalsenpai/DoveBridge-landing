@@ -4,7 +4,7 @@ import CButton from "../shared/CButton/CButton";
 
 const CHeader = () => {
   return (
-    <div className="c-header">
+    <div className="c-header ">
       <nav className="navbar navbar-light fixed-top">
         <div className="container">
           <a className="navbar-brand title" href="#">
@@ -26,8 +26,8 @@ const CHeader = () => {
             </CButton>
           </div>
         </div>
+        <span className="shadow-box"></span>
       </nav>
-      <span className="shadow-box"></span>
     </div>
   );
 };
