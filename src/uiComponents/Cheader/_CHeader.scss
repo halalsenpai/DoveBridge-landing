@@ -12,6 +12,10 @@
           font-size: $font-size-lg;
           font-family: $font-medium;
           color: $text-color;
+
+          .logo-text {
+            font-family: $font-bold;
+          }
         }
       }
     }

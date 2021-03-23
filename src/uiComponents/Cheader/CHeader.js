@@ -9,13 +9,13 @@ const CHeader = () => {
         <div className="container">
           <a className="navbar-brand title" href="#">
             <img
-              src={require("..//../assets/images/logo-icon.svg")}
+              src={require("..//../assets/images/DoveBridge_Icon.png")}
               alt=""
               width="40"
               height="40"
               className="d-inline-block align-top mr-1"
             />
-            DoveBridge
+            <div className="logo-text">DoveBridge</div>
           </a>
           <div className="signup-btn">
             <CButton href="#sec-2" type="small" themeColor="primary">
