@@ -14,4 +14,19 @@
   .terms {
     font-size: $font-size-x-sm;
   }
+
+  .show-modal-butn {
+    border: none;
+    outline: none;
+    color: #2c78d0;
+    background: transparent;
+  }
+
+  .modal-desc {
+    height: 450px;
+    overflow-y: scroll;
+    padding: 20px;
+    font-size: 12px;
+    text-align: justify;
+  }
 }

@@ -25,8 +25,8 @@ function Home() {
                 </div>
                 <br />
                 <div className="subtitle">
-                  With an emphasis on quality, security and sensitivity, DoveBridgetakes your love and makes
-                  iteverlasting.
+                  With an emphasis on quality, security and sensitivity, DoveBridge takes your love and makes it
+                  everlasting.
                 </div>
               </div>
             </Fade>
@@ -63,13 +63,13 @@ function Home() {
                 </div>
                 <br />
                 <div className="subtitle">
-                  Unlike other apps, DoveBridgedoes not hold on to your data. Our cutting-edge security system uses
-                  cloud encryption to eliminateany risk to your personal information. In fact, even we won't be able to
-                  accessa single thing you upload!
+                  Unlike other apps, DoveBridge does not hold on to your data. Our cutting-edge security system uses
+                  cloud encryption to eliminate any risk to your personal information. In fact, even we won't be able to
+                  access a single thing you upload!
                 </div>
                 <br />
                 <div className="subtitle">
-                  At DoveBridge,we respect and promote our users’ right to privacy by making data security a top
+                  At DoveBridge, we respect and promote our user's right to privacy by making data security a top
                   priority.
                 </div>
                 <br />
