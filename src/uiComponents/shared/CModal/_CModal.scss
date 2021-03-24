@@ -22,8 +22,8 @@
 
         .close {
           position: absolute;
-          top: 15px;
-          left: -45px;
+          // top: 65px;
+          // right: 0px;
           width: 26px;
           height: 26px;
           border-radius: 26px;
@@ -31,8 +31,8 @@
           outline: none;
           opacity: 1;
           display: flex;
-          align-items: center;
-          justify-content: center;
+          align-self: center;
+          justify-content: flex-end;
 
           svg {
             font-size: 16px;
@@ -82,15 +82,15 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 65px 0;
+      padding: 80px 12px;
 
       .modal-content {
         height: 100%;
         border: none;
         border-radius: 0;
         position: relative;
-        padding: 30px;
-        border-radius: 6px;
+        padding: 2em 1.5em;
+        border-radius: 16px;
         background: $white;
 
         .close {
@@ -99,7 +99,7 @@
           right: -25px;
           width: 24px;
           height: 24px;
-          border-radius: 12px;
+          border-radius: 22px;
           background-color: $white;
           outline: none;
           opacity: 1;
@@ -107,9 +107,20 @@
           align-items: center;
           justify-content: center;
           svg {
-            font-size: 14px;
+            font-size: 16px;
             color: $text-color;
           }
+        }
+        .terms-heading {
+          font-size: $font-size-lg;
+          font-family: $font-bold;
+          margin-bottom: 5px;
+        }
+        .modal-inner-div {
+          height: calc(100% - 28px);
+          padding-left: 2em;
+          padding-right: 1em;
+          overflow-y: scroll;
         }
       }
     }
@@ -153,6 +164,6 @@
     }
   }
   .modal-dialog {
-    max-width: 718px !important;
+    max-width: 720px !important;
   }
 }
