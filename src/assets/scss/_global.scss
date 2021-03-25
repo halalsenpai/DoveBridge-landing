@@ -15,3 +15,19 @@ body {
   font-size: $font-size-sm;
   font-family: $font-light;
 }
+.swal-footer {
+  text-align: center;
+
+  .swal-button-container {
+    .swal-button {
+      border-radius: 10px;
+      padding: 15px 10px;
+      font-family: $font-light !important;
+      font-size: $font-size-md;
+    }
+    .swal-button--confirm {
+      color: $white;
+      background-color: $primary;
+    }
+  }
+}

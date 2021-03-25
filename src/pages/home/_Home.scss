@@ -134,6 +134,7 @@
         flex-basis: 50%;
         flex-grow: 1;
         margin-top: 30px;
+        min-width: 300px;
       }
       .text {
         flex-basis: 50%;
@@ -144,7 +145,7 @@
         margin-top: 30px;
 
         .text-wrap {
-          width: 70%;
+          width: 90%;
 
           .title {
             font-size: $font-size-x-lg;
