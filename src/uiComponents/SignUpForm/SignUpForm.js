@@ -19,6 +19,7 @@ const SignUpForm = (props) => {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [passwordsDoNotMatch, setPasswordsDoNotMatch] = useState(false);
+  const [passwordStrength, setPasswordStrength] = useState(true);
 
   // loading button states
   const [pending, setpending] = useState(false);
@@ -121,7 +122,17 @@ const SignUpForm = (props) => {
             label="Password"
             variant="outlined"
             required
-            onChange={(e) => setPassword(e.target.value)}
+            onChange={(e) => {
+              var reg = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
+              setPassword(e.target.value);
+              var test = reg.test(password);
+              if (test) {
+                setPasswordStrength(true);
+              } else {
+                console.log("password weak");
+                setPasswordStrength(false);
+              }
+            }}
           />
           <TextField
             disabled={pending}
@@ -138,6 +149,12 @@ const SignUpForm = (props) => {
             }}
           />
           {passwordsDoNotMatch ? <div className="warning-text">passwords do not match</div> : null}
+          {!passwordStrength ? (
+            <div className="warning-text">
+              Password must contain minimum eight characters, at least one letter and one number:
+            </div>
+          ) : null}
+
           <div className="d-flex align-items-center justify-content-start mb-2">
             <Checkbox
               disabled={pending}
